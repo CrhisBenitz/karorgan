@@ -199,7 +199,7 @@
 
 								<div class="col-12">
 									<div class="col-12-element-left">
-										<a href="https://dixpamag.com" class="image"><img src="images/pub10-bis.png" alt=""></a>
+										<a href="https://dixpamag.com" class="image"><img src="images/pub10.jpg" alt=""></a>
 									</div>
 									<div class="col-12-element-right">
 										<a href="https://dixpamag.com/wp-content/uploads/2023/02/febreroAnaGlez.pdf"><h3>“De groserías y otras estrategias”</h3></a>
@@ -403,7 +403,7 @@
 
 										<div class="col-12">
 											<div class="col-12-element-left">
-												<a href="ix_coloquio_internacional_de_literatura_gotica_ulloa" class="image"><img src="images/pon2.jpg" alt=""></a>
+												<a href="ix_coloquio_internacional_de_literatura_gotica_ulloa.pdf" class="image"><img src="images/pon2.jpg" alt=""></a>
 											</div>
 											<div class="col-12-element-right">
 												<a href="https://gothiccongress.blogspot.com/?fbclid=IwAR2eoZmRKG4cGOgzARZQh_BBIvfP_TaV1vF6lXrNmgsaRRMzyN-wajjZ5x0"><h3>“Lo mínimo en el horror: la deshumanización del cuerpo femenino en <em>A Girl is a Half-formed Thing</em> de Eimear McBride y <em>Una niña es una cosa a medio formar</em> (dir. Juan Miranda)”</h3></a>
@@ -415,7 +415,7 @@
 
 										<div class="col-12">
 											<div class="col-12-element-left">
-												<a href="bees_are_all_women_1" class="image"><img src="images/pon1.jpg" alt=""></a>
+												<a href="bees_are_all_women_1.pdf" class="image"><img src="images/pon1.jpg" alt=""></a>
 											</div>
 											<div class="col-12-element-right">
 												<h3>‘“The bees are all women”: la miel como herencia femenina en Sylvia Plath, Carol Ann Duffy y Catherine Bowman’</h3>
@@ -438,16 +438,18 @@
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
+												<input type="text" name="name" placeholder="Name" required/>
 											</div>
 											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
+												<input type="text" name="email" placeholder="Email" pattern="([A-Za-z0-9][._\-]?)+[A-Za-z0-9\-]@([A-Za-z0-9]+\.?)+[A-Za-z]{2,}" title="email no valido" required/>
+											</div>
+
+
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" required/>
 											</div>
 											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
+												<textarea name="message" placeholder="Message" rows="6" required></textarea>
 											</div>
 											<div class="col-12">
 												<input type="submit" value="Send Message" />
@@ -476,6 +478,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/form-valid.js"></script>
 
 	</body>
 </html>
