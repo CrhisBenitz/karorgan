@@ -924,6 +924,12 @@ input, select, textarea {
 				align-items: stretch;
 			}
 
+      .row > .col-12 {
+  			flex-direction: column;
+  		}
+
+
+
 				.row > * {
 					box-sizing: border-box;
 				}
