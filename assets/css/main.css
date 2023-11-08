@@ -268,9 +268,40 @@ input, select, textarea {
 		.row > .col-12 {
 			width: 100%;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 5%;
 		}
+
+    .row > .col-12-list {
+			width: 100%;
+      display: flex;
+      align-items: flex-start;
+      gap: 1%;
+      padding-top: 0;
+      flex-direction: column;
+		}
+
+    .col-12-list > * {
+      text-align: justify;
+      text-justify: auto;
+    }
+
+    .col-12-list p {
+      margin-bottom: 1em;
+    }
+
+    .col-12-list-element {
+      padding: inherit;
+    }
+
+    .col-12-list-element h3:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f5b7";
+      display: inline-block;
+      padding-right: 2%;
+      vertical-align: middle;
+      font-weight: 600;
+    }
 
     .col-12 > * {
       text-align: justify;
